@@ -1,4 +1,4 @@
-import testEq from "./index.js";
+import testEq from "../index.js";
 var recoverSecret = function(triplets) {
   let p = {};
   for (let trip of triplets) {

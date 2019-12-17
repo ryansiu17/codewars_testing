@@ -1,4 +1,5 @@
-import testEq from "./index.js";
+import testEq from "../index.js";
+
 function VigenèreCipher(key, abc) {
   // set up our vign. matrix
   let matrix = {};
@@ -38,7 +39,6 @@ function VigenèreCipher(key, abc) {
 }
 
 var abc, key, c;
-//passwordpasswordpasswordpa
 abc = "abcdefghijklmnopqrstuvwxyz";
 key = "password";
 
